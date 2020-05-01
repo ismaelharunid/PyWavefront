@@ -36,7 +36,10 @@
 class Mesh:
     """This is a basic mesh for drawing using OpenGL. Interestingly, it does
     not contain its own vertices. These are instead drawn via materials."""
-
+    name = None
+    materials = None
+    has_faces = None
+    
     def __init__(self, name=None, has_faces=False):
         self.name = name
         self.materials = []

@@ -250,6 +250,7 @@ class ObjParser(Parser):
         self.wavefront.add_mesh(self.mesh)
 
     def parse_f(self):
+        #print 'obj#parse_f called'
         # Add default material if not created
         if self.material is None:
             self.material = Material(

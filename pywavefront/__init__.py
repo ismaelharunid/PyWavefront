@@ -36,6 +36,10 @@ import logging
 from pywavefront.exceptions import PywavefrontException
 from pywavefront.obj import ObjParser
 from pywavefront.wavefront import Wavefront
+from pywavefront.material import Material, MaterialParser
+from pywavefront.mesh import Mesh
+from pywavefront.texture import Texture, TextureOptions
+from pywavefront import dump
 
 __version__ = '1.3.2'
 
